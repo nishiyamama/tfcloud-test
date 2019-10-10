@@ -4,7 +4,7 @@ resource "aws_vpc" "main" {
   enable_dns_hostnames = true
 
   tags {
-    Name = "tfcloud-desuyo-${terraform.env}-vpc"
+    Name = "tfcloud-desuyo-${terraform.env}-vpc-vpc"
     Environment = "${terraform.env}"
   }
 }
